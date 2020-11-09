@@ -15,6 +15,10 @@ For cases with severely limited memory, we often cannot rely on predefined, buil
 
 ## App Screenshots
 
+<img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/1.PNG" width="300">
+<img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/2.PNG" width="300">
+<img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/3.PNG" width="300">
+
 `For the purpose of this demonstration, I've used an open-source random user generator API (https://randomuser.me/) as a means to simulate a never ending feed of content. This API returns a random user name, email ID and an image. I've set the seed value of the start to be fixed so as to get the same results everyime.`
 
 
