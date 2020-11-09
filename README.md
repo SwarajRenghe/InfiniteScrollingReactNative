@@ -5,6 +5,9 @@ The demo is of a small, cross platform POC app built in React Native. The associ
 
 The main code files are the [hyper optimised FlatList](https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/screens/OptimisedFlatList.tsx) and the [custom method of discarding items](https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/screens/MyMethod.tsx). Both these code files form the bulk of the logic of the app, and have extensive code documentation.
 
+## App Walkthrough (Video)
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/sYts4qdcuBg/0.jpg)](http://www.youtube.com/watch?v=sYts4qdcuBg "Infinite Scrolling in React Native - Demo")
+
 ### Method 1
 ## Hyper Optimised FlatList
 For a lot of use cases, the highly performant FlatList component within React Native is often a great choice - especially upon tuning some specific parameters. After some experimentation and appropriate assumptions, I tinkered with a few specific parameters like windowSize, removeClippedSubviews, disableVirtualization, lightweight item rendering etc. These parameters were picked to optimise for consuming a low memory footprint.
