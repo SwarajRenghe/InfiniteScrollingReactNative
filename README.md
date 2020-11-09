@@ -14,10 +14,14 @@ For a lot of use cases, the highly performant FlatList component within React Na
 For cases with severely limited memory, we often cannot rely on predefined, built in functions to perform our task adequately. For this, we can use a method of discarding content once the user has scrolled past it, and loading it back in if the user scrolls up again. The primary challenge in this method is to ensure that the content is discarded in such a manner that the scroll position of the user does not jump ie, the user must not be displaced. The solution to this problem is to perform the action of deleting items from the list at the precise moment that a new piece of content reaches the top of the list, and apprpriately repositioning the top of the user's scroll window to avoid any breaks. 
 
 ## App Screenshots
-
+- Outlining Method 1
 <img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/1.PNG" width="300">
+- Outlining Method 2
 <img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/2.PNG" width="300">
+- Demo of Method 1
 <img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/3.PNG" width="300">
+- Demo of Method 1
+<img src="https://github.com/SwarajRenghe/InfiniteScrollingReactNative/blob/main/4.PNG" width="300">
 
 `For the purpose of this demonstration, I've used an open-source random user generator API (https://randomuser.me/) as a means to simulate a never ending feed of content. This API returns a random user name, email ID and an image. I've set the seed value of the start to be fixed so as to get the same results everyime.`
 
